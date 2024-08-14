@@ -10,3 +10,4 @@
 | Concat or Append | No keyword instead use pipe symbol (\|\|) | Concat | SELECT 'SQL' \|\| ' ' \|\| 'Fundamentals' | CONCAT('SQL',' ','Fundamentals') | Appending or concating more than two words into a single word |
 | Replace the content | REPLACE | REPLACE | REPLACE('Hello Nuthan!!!', 'nuthaN!!!', 'Ramesh'); | REPLACE('Hello Nuthan!!!', 'nuthaN!!!', 'Ramesh'); | Ignoring the case only in SQL SERVER. |
 | Alias Name | AS | AS | SELECT Lower('SQL Fundamentals') AS name | SELECT Lower('SQL Fundamentals') AS name | Alais name for your column. |
+| Fetch n records | LIMIT  | TOP | SELECT * from demo LIMIT 2 | SELECT TOP 2 * from Demo | Get top 2 records |
