@@ -32,4 +32,4 @@ This repository provides a comparison of SQLite and SQL Server, including sample
 Contributions are welcome! Please feel free to open issues or pull requests.
 
 ### Cheat Sheet
-[Link to cheat_sheet.md](https://github.com/nuthanm/compare-sqlite-vs-sqlserver/tree/main)
+[Link to cheat_sheet.md](https://github.com/nuthanm/compare-sqlite-vs-sqlserver/blob/main/cheat_sheet.md)
