@@ -11,3 +11,4 @@
 | Replace the content | REPLACE | REPLACE | REPLACE('Hello Nuthan!!!', 'nuthaN!!!', 'Ramesh'); | REPLACE('Hello Nuthan!!!', 'nuthaN!!!', 'Ramesh'); | Ignoring the case only in SQL SERVER. |
 | Alias Name | AS | AS | SELECT Lower('SQL Fundamentals') AS name | SELECT Lower('SQL Fundamentals') AS name | Alais name for your column. |
 | Fetch n records | LIMIT  | TOP | SELECT * from demo LIMIT 2 | SELECT TOP 2 * from Demo | Get top 2 records |
+| To reverse | -  | REVERSE | - | SELECT REVERSE('Nani') | In SQLite, there is no funciton available for reverse |
