@@ -27,3 +27,10 @@ SELECT RTRIM(' SQL    ')
 
 SELECT TRIM(' SQL    ')
 -- OUTPUT:SQL
+
+SELECT REPLACE('Hello Nuthan!!!', 'nuthaN!!!', 'Ramesh');
+-- OUTPUT: Hello Ramesh
+-- Note: Ignoring case here
+
+SELECT REVERSE('Nani')
+-- Output:inaN
