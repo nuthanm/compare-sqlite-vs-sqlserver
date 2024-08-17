@@ -8,6 +8,10 @@ SELECT IIF(@total_population > 30000000, 'High','Low')
 
 -- This format we called as Searched CASE expression
 Declare @total_population_case bigint = 2500000;
-SELECT CASE WHEN @total_population_case > 30000000 THEN 'High' ELSE 'LOW' END
+SELECT CASE WHEN @total_population_case > 30000000 THEN 'High' ELSE 'LOW' END;
 
-SELECT ISNULL(null,'becuase first parameter is null')
+-- This one preferred if two parameters
+SELECT ISNULL(null,'becuase first parameter is null');
+
+-- Returns first non null value in the list of values supplied
+SELECT COALESCE(null,null,200,300)

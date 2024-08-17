@@ -8,4 +8,8 @@ SELECT IIF(2500000000 > 30000000, 'High','Low')
 -- This format we called as Searched CASE expression
 SELECT CASE WHEN 250000 > 30000000 THEN 'High' ELSE 'LOW' END
 
+-- This one preferred if two parameters
 SELECT IFNULL('hi','becuase first parameter is null')
+
+-- Returns first non null value in the list of values supplied
+SELECT COALESCE(null,null,200,300)
