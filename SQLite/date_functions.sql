@@ -23,3 +23,34 @@
 -- There are number of functions to work with Date
 -- Date Manipulation - Add/Sub,...
 -- Date Formatting - Local date,extract year/month/dd
+
+-- DATE
+SELECT DATE('now')
+-- Returns 2024-08-18 (Current date)
+SELECT DATE('now','14 days')
+-- Returns: Adds 14 days to the current date
+
+SELECT DATE('now','-14 Months')
+-- Returns 2023-06-18 => Get old date
+
+SELECT DATE('now','14 Months')
+-- Adding 14 months to the current date => 2025-10-18
+
+SELECT DATE('now','14 years')
+-- 2038-08-18 - Adding 14 years to current year
+
+SELECT DATE('now','start of month')
+-- 2024-08-01 => Start day of the month
+
+SELECT DATE('now','start of year')
+-- Returns 2024-01-01
+
+SELECT DATE('now','localtime')
+
+SELECT DATE('now','utc')
+
+SELECT DATE('now','weekday 2')
+-- Returns 2024-08-20
+-- TIME
+
+-- DATETIME
