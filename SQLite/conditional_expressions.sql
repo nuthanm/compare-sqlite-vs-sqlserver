@@ -13,3 +13,6 @@ SELECT IFNULL('hi','becuase first parameter is null')
 
 -- Returns first non null value in the list of values supplied
 SELECT COALESCE(null,null,200,300)
+
+SELECT NULLIF(0,0) -- If both same then it returns null
+SELECT NULLIF(0,1) -- If both are different then it returns first value- As per this example: 0
