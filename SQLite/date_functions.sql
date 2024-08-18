@@ -63,3 +63,23 @@ SELECT DATETIME('now')
 
 
 SELECT DATETIME('now', '1 day')
+
+-- FORMATTING date functions
+-- Function: STRFTIME => Returns the dates formatted according to the format specified
+/*
+Format: 
+%d - day of the month - 01-31
+%m -  month           - 01-12
+%Y -  Year            - 0000-9999
+%W - week of the year - 00-53
+%H - hour             - 00-24
+%M - minute           - 00-59
+%S - Seconds          - 00 -59
+%j - day of the year  - 001-366
+*/
+
+SELECT STRFTIME('%d','now') -- Returns 18 (Day)
+SELECT STRFTIME('%d-%m-%Y','now') -- Returns 18-08-2024 (Date in different format)
+SELECT STRFTIME('%W','now') -- Returns 33
+
+SELECT STRFTIME('%d-%m-%Y','now', 'start of year') -- Returns 01-01-2024 (Date in different format)
