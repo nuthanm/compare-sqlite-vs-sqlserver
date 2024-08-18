@@ -52,5 +52,14 @@ SELECT DATE('now','utc')
 SELECT DATE('now','weekday 2')
 -- Returns 2024-08-20
 -- TIME
+SELECT TIME('now')
+
+SELECT TIME('now', '1 hour')
+
+SELECT TIME('now', '1 hour', '1 minute', '1 second')
 
 -- DATETIME
+SELECT DATETIME('now')
+
+
+SELECT DATETIME('now', '1 day')
